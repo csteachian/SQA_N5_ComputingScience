@@ -1,0 +1,37 @@
+/* Background Colours */
+body{background-color:#98FB98}
+
+/* Text Properties */
+h1 {font-family:Helvetica;
+text-align:center;
+color:white;
+font-size:30pt}
+
+h2 {font-family:Helvetica;
+text-align:left;
+color:Black;
+font-size:12pt}
+
+p, li {font-family:Helvetica;
+text-align:left;
+color:Black;
+font-size:10pt}
+
+a {font-family:Helvetica;
+text-align:left;
+color:#FFAC1C;
+font-size:10pt}
+
+/* IDs */
+#headingParagraph{font-family:"Georgia",serif;
+text-align:center;
+color:white;
+font-size:16pt}   
+
+/* Classes */
+.headingSection {background-color:#005EB8}
+.contentSection {background-color:#FFFFFF}
+.linksSection {background-color:#FFFFFF}
+.bannerImage {width:100%;height:60px}	
+.janPromotion {font-size:18pt;color:#DDA0DD;text-align:center}
+.salePrice {font-size:24pt !important}
