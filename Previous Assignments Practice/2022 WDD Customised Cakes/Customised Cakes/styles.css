@@ -29,11 +29,18 @@ a {
 	font-size:14pt
 }
 
+#cakeImage {
+    height: 240px;
+	width: 300px
+}
+
+
 /* IDs */
 #headingParagraph {
 	text-align: center;
 	color: lemonchiffon;
-	font-size: 18pt
+	font-size: 22pt;
+	font-family: Arial;
 }  
 
 #bannerImage {
@@ -41,13 +48,18 @@ a {
 	width: 100%
 } 
 
+#externalLink {
+	color: OrangeRed;
+	font-size: 16pt;
+}
+
 /* Classes */
 .headingSection { 
 	background-color: DeepSkyBlue
 }
 
 .contentSection {
-	background-color: #fe83cc 
+	background-color: DeepSkyBlue
 }
 
 .linksSection {
@@ -55,5 +67,5 @@ a {
 }
 
 .customCakeSection {
-	background-color: lemonchiffon
+	background-color: DeepSkyBlue
 }
