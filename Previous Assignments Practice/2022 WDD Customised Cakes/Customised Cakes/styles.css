@@ -1,0 +1,71 @@
+/* Background Colours */
+body { 
+	font-family: Comic Sans Ms;	
+	background-color: #fe83cc 
+}
+
+/* Text Properties */
+h1 { 
+	text-align:center;
+	color: lemonchiffon;
+	font-size:30pt
+}
+
+h2 {
+	text-align:left;
+	color:Black;
+	font-size:16pt
+}
+
+p {
+	text-align:left;
+	color:Black;
+	font-size:14pt
+}
+
+a {
+	text-align:left;
+	color: black;
+	font-size:14pt
+}
+
+#cakeImage {
+    height: 240px;
+	width: 300px
+}
+
+
+/* IDs */
+#headingParagraph {
+	text-align: center;
+	color: lemonchiffon;
+	font-size: 22pt;
+	font-family: Arial;
+}  
+
+#bannerImage {
+	height: 250px;
+	width: 100%
+} 
+
+#externalLink {
+	color: OrangeRed;
+	font-size: 16pt;
+}
+
+/* Classes */
+.headingSection { 
+	background-color: DeepSkyBlue
+}
+
+.contentSection {
+	background-color: DeepSkyBlue
+}
+
+.linksSection {
+	background-color: DeepSkyBlue
+}
+
+.customCakeSection {
+	background-color: DeepSkyBlue
+}
