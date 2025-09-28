@@ -4,8 +4,16 @@
 print()
 # random numbers
 import random
-lotteryBall = random.randint(1,59) # 1 is min, 59 is max
-print(lotteryBall) # will show number between 1 and 59
+for index in range(0,6):
+    lotteryBall = random.randint(1,59)
+    print(lotteryBall)
+
+# round
+cost = float(input("Please enter the cost of the item in £ and p: "))
+noPounds = round(cost)
+print("You will need £"+str(noPounds))
+print("And you will get "+str(noPounds-cost)+"p change")
+
 
 # round
 fp = random.random() * 100
@@ -14,6 +22,13 @@ newFP = round(fp,2)
 print(newFP)
 
 # length
+
+# password validator
+password = input("Please enter your password: ")
+while len(password) < 8:
+    print("Your password must be 8 characters or more.")
+    password = input("Please enter your password: ")
+print("Password accepted.")
 
 # This example counts the number of letters in the word variable
 
