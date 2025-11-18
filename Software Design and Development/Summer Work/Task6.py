@@ -7,5 +7,5 @@
 
 noWords = int(input("Enter number of words in the essay:"))
 wpm = int(input("Enter the number of words per minute you can type:"))
-noMins = round((noWords / wpm), 2)
+noMins = (noWords / wpm)
 print("The essay will take you " + str(noMins) + " minutes")
